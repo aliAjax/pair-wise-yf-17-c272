@@ -1,4 +1,5 @@
 import "./styles.css";
+import IntervalReviewBoard from "./IntervalReviewBoard";
 
 const project = {
   "sourceNo": 7,
@@ -121,6 +122,8 @@ function App() {
           ))}
         </div>
       </section>
+
+      <IntervalReviewBoard />
     </main>
   );
 }
